@@ -16,4 +16,21 @@ This repository contains the complete computational workflow and data for our co
 - MD simulations reveal weaker thermodynamic stability for AI-generated candidates vs. reference
 - Generative AI excels at novel scaffold proposal; rigorous biophysical validation remains essential
 
-## Repository Structure
+
+## Requirements
+
+### Core Dependencies
+
+```bash
+# Python packages
+pip install rdkit pandas numpy matplotlib seaborn scipy
+
+# Docking
+# AutoDock Vina 1.2.3 or higher
+
+# Molecular Dynamics
+# AMBER 22 (commercial license required)
+# Alternatively: GROMACS 2023+ (open-source)
+
+# Virtual Screening
+# infiniSee Analog Hunter 6.0 (commercial)
